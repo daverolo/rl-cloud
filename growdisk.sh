@@ -70,7 +70,7 @@ fi
 # Check if disk space is available to grow the partition
 if [ $DISK_SIZE -le $PART_SIZE ]; then
     #die "error: no space left to grow partition"
-    die "error: disk ${DISK_PATH} using all ${DISK_SIZE_STRING} space"
+    die "error: disk ${DISK_PATH} already using all ${DISK_SIZE_STRING} space"
 fi
 
 # Grow partition and disk size
