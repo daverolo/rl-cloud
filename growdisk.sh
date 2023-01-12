@@ -1,6 +1,7 @@
 #!/bin/bash
 # -----------------------------------------------------------------------------
 # What: Grow partition and disk size to the maximum available
+# Link: https://raw.githubusercontent.com/daverolo/rl-cloud/main/growdisk.sh
 # Usage: sudo bash growdisk.sh
 # -----------------------------------------------------------------------------
 
